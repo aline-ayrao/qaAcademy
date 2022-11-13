@@ -1,7 +1,7 @@
 package Medium;
 
 public class Exercicio03_medium {
-    public static void main(String[] args) {
+    public static void somaNumerosAcumulados() {
         int i=0, soma=0;
         while (i<=1000) {
             soma = soma+i;
