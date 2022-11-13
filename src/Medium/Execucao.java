@@ -20,8 +20,12 @@ public class Execucao {
         // Exercicio03_medium exercicio03_medium = new Exercicio03_medium();
         // exercicio03_medium.somaNumerosAcumulados();
 
-        Exercicio04_medium exercicio04_medium = new Exercicio04_medium();
-        exercicio04_medium.multiplicacaoNumerosAteMil();
+        // Exercicio04_medium exercicio04_medium = new Exercicio04_medium();
+        // exercicio04_medium.multiplicacaoNumerosAteMil();
+
+        Exercicio05_medium exercicio05_medium = new Exercicio05_medium();
+        int menorNumero = exercicio05_medium.exibeMenorNumero();
+                System.out.println("O numero: " + menorNumero + " é o menor.");
     }
 
 }
