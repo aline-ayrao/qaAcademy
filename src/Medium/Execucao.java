@@ -17,10 +17,11 @@ public class Execucao {
         // System.out.println("O valor do juros é: R$"+(valorJuros));
         // System.out.println("O valor total do investimento: R$"+ (valorJuros + valorInvestimento));
 
-        Exercicio03_medium exercicio03_medium = new Exercicio03_medium();
-        exercicio03_medium.somaNumerosAcumulados();
+        // Exercicio03_medium exercicio03_medium = new Exercicio03_medium();
+        // exercicio03_medium.somaNumerosAcumulados();
 
-
+        Exercicio04_medium exercicio04_medium = new Exercicio04_medium();
+        exercicio04_medium.multiplicacaoNumerosAteMil();
     }
 
 }
