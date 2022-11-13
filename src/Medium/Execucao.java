@@ -36,14 +36,19 @@ public class Execucao {
         // System.out.println("O fatorial do numero digitado é:" + (exercicio06_medium.calculaFatorial(fatorial)));
 
         // Exercicio08_medium exercicio08_medium = new Exercicio08_medium();
-
         // exercicio08_medium.criaVetorMeses();
         // exercicio08_medium.imprimeValoresVetor(exercicio08_medium.criaVetorMeses());
 
         
-        Exercicio09_medium exercicio09_medium = new Exercicio09_medium();
-        exercicio09_medium.nomeNumeroAlunos();
-    
-    }
+        // Exercicio09_medium exercicio09_medium = new Exercicio09_medium();
+        // exercicio09_medium.nomeNumeroAlunos();
 
+    
+        Exercicio10_medium exercicio10_medium = new Exercicio10_medium();
+        int elementoFibonacci = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero:"));
+        int [] vetorFibonacci = exercicio10_medium.calculaTermoFibonacci(elementoFibonacci);
+        exercicio10_medium.imprimeVetor(vetorFibonacci);
+
+    }
 }
+        
