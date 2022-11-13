@@ -58,8 +58,8 @@ public class Execucao {
         // System.out.println ("Seu imposto é
         // :"+(exercicio08_easy.calculaImpostoRenda(sal)));
         // double impRend = exercicio08_easy.calculaImpostoRenda(sal);
-        // System.out.println ("Seu salario liquido é
-        // :"+(exercicio08_easy.calcularSalarioLiquido(sal, impRend)));
+        // System.out.println ("Seu salario liquido
+        // é:"+(exercicio08_easy.calcularSalarioLiquido(sal, impRend)));
 
         // Exercicio09_easy exercicio09_easy = new Exercicio09_easy();
         // Integer numeroDigitado = Integer.parseInt(JOptionPane.showInputDialog("Digite
@@ -67,13 +67,19 @@ public class Execucao {
         // System.out.println(exercicio09_easy.calculaTabuada(numeroDigitado,
         // numeroDigitado));
 
-        Exercicio10_2_easy exercicio10_2_easy = new Exercicio10_2_easy();
-        Double valorInvestimento, valorTotal, valorJuros;
-        valorInvestimento = Double.parseDouble(JOptionPane.showInputDialog("Digite um valor para investir:"));
-        valorJuros = exercicio10_2_easy.calculaInvestimento(valorInvestimento);
-        valorTotal = valorJuros + valorInvestimento;
-        System.out.println("Valor Investido: R$" + valorInvestimento);
-        System.out.println("Valor Juros: R$" + valorJuros);
-        System.out.println("Valor Total com Juros: R$"+ valorTotal);
+        // Exercicio10_2_easy exercicio10_2_easy = new Exercicio10_2_easy();
+        // Double valorInvestimento, valorTotal, valorJuros;
+        // valorInvestimento = Double.parseDouble(JOptionPane.showInputDialog("Digite um
+        // valor para investir:"));
+        // valorJuros = exercicio10_2_easy.calculaInvestimento(valorInvestimento);
+        // valorTotal = valorJuros + valorInvestimento;
+        // System.out.println("Valor Investido: R$" + valorInvestimento);
+        // System.out.println("Valor Juros: R$" + valorJuros);
+        // System.out.println("Valor Total com Juros: R$"+ valorTotal);
+
+        Exercicio11_easy exercicio11_easy = new Exercicio11_easy();
+        int numeroDigitado;
+        numeroDigitado = Integer.parseInt(JOptionPane.showInputDialog("Digite um valor:"));
+        System.out.println("O total somado é: " + exercicio11_easy.somaDois(numeroDigitado));
     }
 }

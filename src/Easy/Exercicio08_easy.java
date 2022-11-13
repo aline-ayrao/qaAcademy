@@ -2,7 +2,7 @@ package Easy;
 
 public class Exercicio08_easy {
   public Double calculaImpostoRenda(Double sal) {
-    Double impRend = 0.0, salLiq = 0.0;
+    Double impRend = 0.0;
 
     if (sal <= 1903.98) {
       impRend = 0.0;
