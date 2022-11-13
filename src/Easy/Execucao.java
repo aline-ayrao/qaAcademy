@@ -53,14 +53,27 @@ public class Execucao {
         // System.out.println(exercicio07_easy.calculaInss(sal));
 
         // Exercicio08_easy exercicio08_easy = new Exercicio08_easy();
-        // Double sal = Double.parseDouble(JOptionPane.showInputDialog("Digite seu salario"));
-        // System.out.println ("Seu imposto é :"+(exercicio08_easy.calculaImpostoRenda(sal)));
+        // Double sal = Double.parseDouble(JOptionPane.showInputDialog("Digite seu
+        // salario"));
+        // System.out.println ("Seu imposto é
+        // :"+(exercicio08_easy.calculaImpostoRenda(sal)));
         // double impRend = exercicio08_easy.calculaImpostoRenda(sal);
-        // System.out.println ("Seu salario liquido é :"+(exercicio08_easy.calcularSalarioLiquido(sal, impRend)));
+        // System.out.println ("Seu salario liquido é
+        // :"+(exercicio08_easy.calcularSalarioLiquido(sal, impRend)));
 
-        Exercicio09_easy exercicio09_easy = new Exercicio09_easy();
-        Integer numeroDigitado = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero para calcular a tabuada:"));
-        System.out.println(exercicio09_easy.calculaTabuada(numeroDigitado, numeroDigitado));
+        // Exercicio09_easy exercicio09_easy = new Exercicio09_easy();
+        // Integer numeroDigitado = Integer.parseInt(JOptionPane.showInputDialog("Digite
+        // um numero para calcular a tabuada:"));
+        // System.out.println(exercicio09_easy.calculaTabuada(numeroDigitado,
+        // numeroDigitado));
 
+        Exercicio10_2_easy exercicio10_2_easy = new Exercicio10_2_easy();
+        Double valorInvestimento, valorTotal, valorJuros;
+        valorInvestimento = Double.parseDouble(JOptionPane.showInputDialog("Digite um valor para investir:"));
+        valorJuros = exercicio10_2_easy.calculaInvestimento(valorInvestimento);
+        valorTotal = valorJuros + valorInvestimento;
+        System.out.println("Valor Investido: R$" + valorInvestimento);
+        System.out.println("Valor Juros: R$" + valorJuros);
+        System.out.println("Valor Total com Juros: R$"+ valorTotal);
     }
 }
