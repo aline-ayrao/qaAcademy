@@ -35,10 +35,14 @@ public class Execucao {
         // int fatorial = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero:"));
         // System.out.println("O fatorial do numero digitado é:" + (exercicio06_medium.calculaFatorial(fatorial)));
 
-        Exercicio08_medium exercicio08_medium = new Exercicio08_medium();
+        // Exercicio08_medium exercicio08_medium = new Exercicio08_medium();
 
-        exercicio08_medium.criaVetorMeses();
-        exercicio08_medium.imprimeValoresVetor(exercicio08_medium.criaVetorMeses());
+        // exercicio08_medium.criaVetorMeses();
+        // exercicio08_medium.imprimeValoresVetor(exercicio08_medium.criaVetorMeses());
+
+        
+        Exercicio09_medium exercicio09_medium = new Exercicio09_medium();
+        exercicio09_medium.nomeNumeroAlunos();
     
     }
 
