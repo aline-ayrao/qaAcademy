@@ -47,9 +47,15 @@ public class Execucao {
         // double nota2 = Double.parseDouble(nota2Stg);
         // System.out.println(exercicio06_easy.verificaAprovacao(nota1, nota2));
 
-        Exercicio07_easy exercicio07_easy = new Exercicio07_easy();
-        String salario = JOptionPane.showInputDialog("Digite seu salario");
-        Double sal = Double.parseDouble(salario);
-        System.out.println(exercicio07_easy.calculaInss(sal));
+        // Exercicio07_easy exercicio07_easy = new Exercicio07_easy();
+        // String salario = JOptionPane.showInputDialog("Digite seu salario");
+        // Double sal = Double.parseDouble(salario);
+        // System.out.println(exercicio07_easy.calculaInss(sal));
+
+        Exercicio08_easy exercicio08_easy = new Exercicio08_easy();
+        Double sal = Double.parseDouble(JOptionPane.showInputDialog("Digite seu salario"));
+        System.out.println ("Seu imposto é :"+(exercicio08_easy.calculaImpostoRenda(sal)));
+        double impRend = exercicio08_easy.calculaImpostoRenda(sal);
+        System.out.println ("Seu salario liquido é :"+(exercicio08_easy.calcularSalarioLiquido(sal, impRend)));
     }
 }
